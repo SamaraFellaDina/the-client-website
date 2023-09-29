@@ -1,1 +1,20 @@
 
+@font-face { 
+    font-family: 'proxima';
+    src: url(../assets/Fonts/ProximaNova-Regular_2607783814[2260].otf)
+}
+
+
+
+
+h1 {
+   font-weight: 600; 
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 600;
+}
