@@ -19,12 +19,16 @@ header {
   background: rgba(247, 161, 0, 255);
   grid-area: header;
 }
+header h1{
+  margin-left: 0.5em;
+  color: white;
+}
 
 
 .sec1 {
   background: rgba(162, 137, 137, 0.093);
   grid-area: sec1;
-  border: 2px solid black;
+  border: 1px solid black;
   display: flex;
   align-items: center;
 }
@@ -35,33 +39,35 @@ section p {
 .sec2 {
   background: rgba(162, 137, 137, 0.093);
   grid-area: sec2;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 .sec3 {
   background: rgba(162, 137, 137, 0.093);
   grid-area: sec3;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .sec4 {
   background: rgba(162, 137, 137, 0.093);
   grid-area: sec4;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .sec5 {
   background: rgba(162, 137, 137, 0.093);
   grid-area: sec5;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 .sec6 {
   background: rgba(162, 137, 137, 0.093);
   grid-area: sec6;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 section:hover { 
   background: orange;
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: white;
 }
 footer {
   background: rgb(147, 49, 49);
