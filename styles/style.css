@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "ProximaNova";
+  src: url(../assets/Fonts/ProximaNova-Regular_2607783814[2260].otf)
+}
+
 body {
   background-color: rgba(255, 255, 255, 255);
   display: grid;
@@ -23,11 +28,11 @@ header {
   width: 150%;
   height: 80%;
 }
+
 header h1{
   margin-left: 0.5em;
   color: white;
 }
-
 
 .sec1 {
   background: rgba(162, 137, 137, 0.093);
@@ -37,25 +42,32 @@ header h1{
   align-items: center;
 }
 
+section {
+  background: rgba(162, 137, 137, 0.093);
+  border: 1px solid black;
+  border-radius: .2em;
+}
+
 section p {
   margin-left: 0.5em;
+  font-family: "ProximaNova";
 }
+
 .sec2 {
-  background: rgba(162, 137, 137, 0.093);
   grid-area: sec2;
-  border: 1px solid black;
 }
+
 .sec3 {
-  background: rgba(162, 137, 137, 0.093);
   grid-area: sec3;
-  border: 1px solid black;
 }
 
 .sec4 {
-  background: rgba(162, 137, 137, 0.093);
   grid-area: sec4;
-  border: 1px solid black;
+  background: #F7A100;
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: white;
 }
+
 
 .sec5 {
   background: rgba(162, 137, 137, 0.093);
@@ -69,10 +81,17 @@ section p {
 }
 
 section:hover { 
-  background: orange;
+  background: #F7A100;
   border: 1px solid rgba(0, 0, 0, 0);
   color: white;
 }
+
+.sec4:hover { 
+  background: #0071B3;
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: white;
+}
+
 footer {
   background: rgb(147, 49, 49);
   color: white;
