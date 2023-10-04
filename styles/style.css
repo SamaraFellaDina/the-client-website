@@ -1,62 +1,70 @@
-  body {
-    background-color: rgba(255,255,255,255);
-    display: grid;
-          grid-template-columns: 2fr 2fr 0.5fr 2fr 2fr;
-          grid-template-rows: 0.5fr 0.25fr 0.25fr 1fr 1fr;
-          grid-gap: 0.5rem;
-          overflow: hidden;
-          padding: 0.5em;
-          grid-template-areas:
-            "header header header header header"
-            ". sec1 . sec2 ."
-            ". sec3 . sec4 ."
-            ". sec5 sec5 sec5 ."
-            ". sec6 sec6 sec6 .";
-    min-height: 100vh;
-    font-family: sans-serif;
-  }
-  header {
-    background: rgba(247,161,0,255);
-    grid-area: header;
-  }
-  .sec1 {
-    background: rgba(162, 137, 137, 0.093);
-    grid-area: sec1;
-    border: 2px solid black;
-    display: flex;
-    align-items:center;
-  }
-  .sec1 p{
-    margin-left: 0.5em;
-  }
-  .sec2 {
-    background: rgba(162, 137, 137, 0.093);
-    grid-area: sec2;
-    border: 2px solid black;
-  }
-  .sec3{
-    background: rgba(162, 137, 137, 0.093);
-    grid-area: sec3;
-    border: 2px solid black;
-  }
-  .sec4{
-    background: rgba(162, 137, 137, 0.093);
-    grid-area: sec4;
-    border: 2px solid black;
-  }
-  .sec5{
-    background: rgba(162, 137, 137, 0.093);
-    grid-area: sec5;
-    border: 2px solid black;
-  }
-  .sec6{
-    background: rgba(162, 137, 137, 0.093);
-    grid-area: sec6;
-    border: 2px solid black;
-  }
-  footer {
-    background: rgb(147, 49, 49);
-    color: white;
-    grid-area: footer;
-  }
-  
+body {
+  background-color: rgba(255, 255, 255, 255);
+  display: grid;
+  grid-template-columns: 2fr 2fr 0.5fr 2fr 2fr;
+  grid-template-rows: 0.5fr 0.25fr 0.25fr 1fr 1fr;
+  grid-gap: 0.5rem;
+  overflow: hidden;
+  padding: 0.5em;
+  grid-template-areas:
+    "header header header header header"
+    ". sec1 . sec2 ."
+    ". sec3 . sec4 ."
+    ". sec5 sec5 sec5 ."
+    ". sec6 sec6 sec6 .";
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+header {
+  background: rgba(247, 161, 0, 255);
+  grid-area: header;
+}
+
+
+.sec1 {
+  background: rgba(162, 137, 137, 0.093);
+  grid-area: sec1;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+}
+
+section p {
+  margin-left: 0.5em;
+}
+.sec2 {
+  background: rgba(162, 137, 137, 0.093);
+  grid-area: sec2;
+  border: 2px solid black;
+}
+.sec3 {
+  background: rgba(162, 137, 137, 0.093);
+  grid-area: sec3;
+  border: 2px solid black;
+}
+
+.sec4 {
+  background: rgba(162, 137, 137, 0.093);
+  grid-area: sec4;
+  border: 2px solid black;
+}
+
+.sec5 {
+  background: rgba(162, 137, 137, 0.093);
+  grid-area: sec5;
+  border: 2px solid black;
+}
+.sec6 {
+  background: rgba(162, 137, 137, 0.093);
+  grid-area: sec6;
+  border: 2px solid black;
+}
+
+section:hover { 
+  background: orange;
+}
+footer {
+  background: rgb(147, 49, 49);
+  color: white;
+  grid-area: footer;
+}
