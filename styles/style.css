@@ -12,7 +12,7 @@ body {
   grid-gap: 0.5rem;
   overflow: hidden;
   grid-template-areas:
-    "header header header header header"
+    "header header header nav nav"
     ". sec1 . sec2 ."
     ". sec3 . sec4 ."
     ". sec5 sec5 sec5 ."
@@ -31,13 +31,41 @@ header {
 }
 
 header img{
-  margin-left: 0.5em;
+  margin-left: 3em;
   color: white;
   width: 7em;
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
+nav{
+  grid-area:nav;
+  background: rgba(247, 161, 0, 255);
+  translate: -1em -1em;
+  height: 43%;
+  width: 175%; 
+  margin-left: -30em;
+  padding: 20px;
+}
+.navlist{
+  list-style: none;
+}
+.navlist li{
+  display: inline-block;
+  padding-inline: 1em;
+ 
+}
+
+.navlist a{
+  text-decoration: none;
+  color: white;
+}
+.nav-right{
+  float: right;
+}
+.nav-left{
+  float: left;
+}
 .sec1 {
   background: rgba(162, 137, 137, 0.093);
   grid-area: sec1;
@@ -81,7 +109,6 @@ div{
   border: 1px solid black;
   background: white;
   border-radius: .2em;
-  box-shadow: ;
 
 }
 
