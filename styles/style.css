@@ -77,16 +77,22 @@ section p {
   font-size: 1em;
 }
 
+div{
+  border: 1px solid black;
+  background: white;
+  border-radius: .2em;
+  box-shadow: ;
+
+}
 
 .sec5 {
-  background: rgba(162, 137, 137, 0.093);
   grid-area: sec5;
-  border: 1px solid black;
+}
+.blok1 img {
+
 }
 .sec6 {
-  background: rgba(162, 137, 137, 0.093);
   grid-area: sec6;
-  border: 1px solid black;
 }
 
 section:hover { 
