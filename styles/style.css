@@ -3,6 +3,7 @@
   src: url(../assets/Fonts/ProximaNova-Regular_2607783814[2260].otf)
 }
 
+
 body {
   background-color: rgba(255, 255, 255, 255);
   display: grid;
@@ -29,9 +30,12 @@ header {
   height: 80%;
 }
 
-header h1{
+header img{
   margin-left: 0.5em;
   color: white;
+  width: 7em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .sec1 {
@@ -49,7 +53,7 @@ section {
 }
 
 section p {
-  margin-left: 0.5em;
+  margin-left: 1em;
   font-family: "ProximaNova";
 }
 
@@ -67,6 +71,11 @@ section p {
   border: 1px solid rgba(0, 0, 0, 0);
   color: white;
 }
+#add {
+  font-weight: 900;
+  position: inherit;
+  font-size: 1em;
+}
 
 
 .sec5 {
@@ -82,13 +91,20 @@ section p {
 
 section:hover { 
   background: #F7A100;
-  border: 1px solid rgba(0, 0, 0, 0);
+  font-weight: 600;
+  border: 1px solid rgba(0, 0, 0, 0.312);
   color: white;
+  box-shadow: .1em .1em .3em rgba(0, 0, 0, 0.199);
+  transition-duration: 300ms;
+  transition-delay: 50ms;
+}
+
+section:not(:hover) { 
+  transition-duration: 200ms;
 }
 
 .sec4:hover { 
   background: #0071B3;
-  border: 1px solid rgba(0, 0, 0, 0);
   color: white;
 }
 
