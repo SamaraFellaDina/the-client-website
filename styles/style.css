@@ -1,8 +1,7 @@
 @font-face {
   font-family: "ProximaNova";
-  src: url(../assets/Fonts/ProximaNova-Regular_2607783814[2260].otf)
+  src: url(../assets/Fonts/ProximaNova-Regular_2607783814[2260].otf);
 }
-
 
 body {
   background-color: rgba(255, 255, 255, 255);
@@ -21,7 +20,6 @@ body {
   font-family: sans-serif;
 }
 
-
 header {
   background: rgba(247, 161, 0, 255);
   grid-area: header;
@@ -30,7 +28,7 @@ header {
   height: 80%;
 }
 
-header img{
+header img {
   margin-left: 3em;
   color: white;
   width: 7em;
@@ -38,32 +36,31 @@ header img{
   padding-bottom: 2em;
 }
 
-nav{
-  grid-area:nav;
+nav {
+  grid-area: nav;
   background: rgba(247, 161, 0, 255);
   translate: -1em -1em;
   height: 43%;
-  width: 175%; 
+  width: 175%;
   margin-left: -30em;
   padding: 20px;
 }
-.navlist{
+.navlist {
   list-style: none;
 }
-.navlist li{
+.navlist li {
   display: inline-block;
   padding-inline: 1em;
- 
 }
 
-.navlist a{
+.navlist a {
   text-decoration: none;
   color: white;
 }
-.nav-right{
+.nav-right {
   float: right;
 }
-.nav-left{
+.nav-left {
   float: left;
 }
 .sec1 {
@@ -77,7 +74,7 @@ nav{
 section {
   background: rgba(162, 137, 137, 0.093);
   border: 1px solid black;
-  border-radius: .2em;
+  border-radius: 0.2em;
 }
 
 section p {
@@ -95,7 +92,7 @@ section p {
 
 .sec4 {
   grid-area: sec4;
-  background: #F7A100;
+  background: #f7a100;
   border: 1px solid rgba(0, 0, 0, 0);
   color: white;
 }
@@ -105,39 +102,37 @@ section p {
   font-size: 1em;
 }
 
-div{
+div {
   border: 1px solid black;
   background: white;
-  border-radius: .2em;
-
+  border-radius: 0.2em;
 }
 
 .sec5 {
   grid-area: sec5;
 }
 .blok1 img {
-
 }
 .sec6 {
   grid-area: sec6;
 }
 
-section:hover { 
-  background: #F7A100;
+section:hover {
+  background: #f7a100;
   font-weight: 600;
   border: 1px solid rgba(0, 0, 0, 0.312);
   color: white;
-  box-shadow: .1em .1em .3em rgba(0, 0, 0, 0.199);
+  box-shadow: 0.1em 0.1em 0.3em rgba(0, 0, 0, 0.199);
   transition-duration: 300ms;
   transition-delay: 50ms;
 }
 
-section:not(:hover) { 
+section:not(:hover) {
   transition-duration: 200ms;
 }
 
-.sec4:hover { 
-  background: #0071B3;
+.sec4:hover {
+  background: #0071b3;
   color: white;
 }
 
