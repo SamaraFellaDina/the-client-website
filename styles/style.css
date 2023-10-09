@@ -1,14 +1,13 @@
 @font-face {
   font-family: "ProximaNova";
-  src: url(../assets/Fonts/ProximaNova-Regular_2607783814[2260].otf)
+  src: url(../assets/Fonts/ProximaNova-Regular_2607783814[2260].otf);
 }
-
 
 body {
   background-color: rgba(255, 255, 255, 255);
   display: grid;
   grid-template-columns: 2fr 3fr 0.5fr 3fr 2fr;
-  grid-template-rows: 0.5fr 0.25fr 0.25fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.25fr 0.25fr 0.25fr 1fr 1fr;
   grid-gap: 0.5rem;
   grid-template-areas:
     "header header header header header"
@@ -20,48 +19,47 @@ body {
   min-height: 100vh;
   font-family: sans-serif;
 }
-header{
-  display:flex;
+header {
+  display: flex;
   width: 100vw;
   grid-area: header;
-  background:rgba(247, 161, 0, 255);
+  background: rgba(247, 161, 0, 255);
 }
-.funda-logo{
+.funda-logo {
   width: 8rem;
   margin-left: 2em;
-  
 }
-.navlist-left{
-  display:flex;
+.navlist-left {
+  display: flex;
   align-items: center;
-  list-style:none;
+  list-style: none;
   grid-area: nav;
-  
 }
-.navlist-right{
-  display:flex;
+.navlist-right {
+  display: flex;
   align-items: center;
-  list-style:none;
+  list-style: none;
   grid-area: nav;
   margin-right: 3em;
 }
-nav{
+nav {
   display: flex;
   justify-content: space-between;
-  width:100%;
+  width: 100%;
 }
 
-.navlist-left li, .navlist-right li{
+.navlist-left li,
+.navlist-right li {
   display: inline-block;
-  padding: 1em; 
- 
+  padding: 1em;
 }
-.navlist-left a, .navlist-right a{
+.navlist-left a,
+.navlist-right a {
   text-decoration: none;
-    color: white;
+  color: white;
 }
 
-H1{
+H1 {
   display: grid;
   grid-area: h1;
 }
@@ -82,7 +80,7 @@ li:hover {
 section {
   background: rgba(162, 137, 137, 0.093);
   border: 1px solid black;
-  border-radius: .2em;
+  border-radius: 0.2em;
 }
 
 section p {
@@ -100,7 +98,7 @@ section p {
 
 .sec4 {
   grid-area: sec4;
-  background: #F7A100;
+  background: #f7a100;
   border: 1px solid rgba(0, 0, 0, 0);
   color: white;
 }
@@ -110,41 +108,39 @@ section p {
   font-size: 1em;
 }
 
-div{
+div {
   border: 1px solid black;
   background: white;
-  border-radius: .2em;
-
+  border-radius: 0.2em;
 }
 
 .sec5 {
   grid-area: sec5;
-  border-radius :10px;
+  border-radius: 10px;
 }
 .blok1 img {
   border-radius: 10px;
-
 }
 .sec6 {
   grid-area: sec6;
 }
 
-section:hover { 
-   background: #F7A100; 
+section:hover {
+  background: #f7a100;
   font-weight: 600;
   border: 1px solid rgba(0, 0, 0, 0.312);
   color: white;
-  box-shadow: .1em .1em .3em rgba(0, 0, 0, 0.199);
+  box-shadow: 0.1em 0.1em 0.3em rgba(0, 0, 0, 0.199);
   transition-duration: 300ms;
   transition-delay: 50ms;
 }
 
-section:not(:hover) { 
+section:not(:hover) {
   transition-duration: 200ms;
 }
 
-.sec4:hover { 
-  background: #0071B3;
+.sec4:hover {
+  background: #0071b3;
   color: white;
 }
 
@@ -153,5 +149,3 @@ footer {
   color: white;
   grid-area: footer;
 }
-
-
