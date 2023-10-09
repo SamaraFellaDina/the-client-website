@@ -7,13 +7,15 @@ body {
   background-color: rgba(255, 255, 255, 255);
   display: grid;
   grid-template-columns: 2fr 3fr 0.5fr 3fr 2fr;
-  grid-template-rows: 0.5fr 0.25fr 0.25fr 0.25fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.25fr 0.1fr 0.1fr 0.1fr 0.1fr 1fr 1fr;
   grid-gap: 0.5rem;
   grid-template-areas:
     "header header header header header"
     ". h1 h1 . ."
-    ". sec1 . sec2 ."
-    ". sec3 . sec4 ."
+    ". sec1 sec1 sec1 ."
+    ". sec2 sec2 sec2 ."
+    ". sec3 sec3 sec3 ."
+    ". sec4 sec4 sec4 ."
     ". sec5 sec5 sec5 ."
     ". sec6 sec6 sec6 .";
   min-height: 100vh;
@@ -73,14 +75,16 @@ li:hover {
   background: rgba(162, 137, 137, 0.093);
   grid-area: sec1;
   border: 1px solid black;
-  display: flex;
-  align-items: center;
+  
+  
 }
 
 section {
   background: rgba(162, 137, 137, 0.093);
   border: 1px solid black;
   border-radius: 0.2em;
+  align-items: center;
+  
 }
 
 section p {
@@ -149,4 +153,23 @@ footer {
   background: rgb(147, 49, 49);
   color: white;
   grid-area: footer;
+}
+
+
+@media screen and (min-width: 1125px) {
+  body{
+    background-color: rgba(255, 255, 255, 255);
+    display: grid;
+    grid-template-columns: 2fr 3fr 0.5fr 3fr 2fr;
+    grid-template-rows: 0.5fr 0.25fr 0.1fr 0.1fr 0.1fr 0.1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    grid-template-areas:
+      "header header header header header"
+      ". h1 h1 . ."
+      ". sec1 . sec2 ."
+      ". sec3 . sec4 ."
+      ". sec5 sec5 sec5 ."
+      ". sec6 sec6 sec6 .";
+    min-height: 100vh;
+  }
 }
