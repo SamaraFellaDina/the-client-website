@@ -16,8 +16,8 @@ body {
     ". sec3 . sec4 ."
     ". sec5 sec5 sec5 ."
     ". sec6 sec6 sec6 .";
-  min-height: 100vh;
   font-family: sans-serif;
+  margin: 0;
 }
 header {
   display: flex;
@@ -73,14 +73,14 @@ li:hover {
   background: rgba(162, 137, 137, 0.093);
   grid-area: sec1;
   border: 1px solid black;
-  display: flex;
-  align-items: center;
 }
 
 section {
   background: rgba(162, 137, 137, 0.093);
   border: 1px solid black;
   border-radius: 0.2em;
+  align-items: center;
+  display: flex;
 }
 
 section p {
@@ -116,9 +116,6 @@ div {
 
 .sec5 {
   grid-area: sec5;
-  
-
-
 }
 .blok1 img {
   border-radius: 10px;
