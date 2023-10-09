@@ -75,14 +75,16 @@ li:hover {
   background: rgba(162, 137, 137, 0.093);
   grid-area: sec1;
   border: 1px solid black;
-  display: flex;
-  align-items: center;
 }
 
 section {
   background: rgba(162, 137, 137, 0.093);
   border: 1px solid black;
   border-radius: .2em;
+  align-items: center;
+  display: flex;
+
+
 }
 
 section p {
