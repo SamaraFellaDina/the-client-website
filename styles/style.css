@@ -126,6 +126,16 @@ div {
   grid-area: sec6;
 }
 
+.sec7 {
+  grid-area: sec7;
+}
+
+.sec8 {
+  grid-area: sec8;
+}
+
+
+
 section:hover {
   background: #f7a100;
   font-weight: 600;
