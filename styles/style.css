@@ -16,12 +16,11 @@ body {
     ". sec3 . sec4 ."
     ". sec5 sec5 sec5 ."
     ". sec6 sec6 sec6 .";
-  min-height: 100vh;
   font-family: sans-serif;
+  margin: 0;
 }
 header {
   display: flex;
-  width: 100vw;
   grid-area: header;
   background: rgba(247, 161, 0, 255);
 }
@@ -59,7 +58,7 @@ nav {
   color: white;
 }
 
-H1 {
+h1 {
   display: grid;
   grid-area: h1;
 }
@@ -116,8 +115,6 @@ div {
 
 .sec5 {
   grid-area: sec5;
-
-  
 }
 .blok1 img {
   border-radius: 10px;
