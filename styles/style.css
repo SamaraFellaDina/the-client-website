@@ -116,12 +116,17 @@ div {
 
 .sec5 {
   grid-area: sec5;
-
   
+
+
 }
 .blok1 img {
   border-radius: 10px;
 }
+
+
+
+
 .sec6 {
   grid-area: sec6;
 }
