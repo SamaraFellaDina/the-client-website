@@ -10,7 +10,6 @@ body {
   grid-template-columns: 2fr 3fr 0.5fr 3fr 2fr;
   grid-template-rows: 0.5fr 0.25fr 0.25fr 1fr 1fr;
   grid-gap: 0.5rem;
-  overflow: hidden;
   grid-template-areas:
     "header header header header header"
     ". h1 h1 . ."
@@ -152,3 +151,5 @@ footer {
   color: white;
   grid-area: footer;
 }
+
+
