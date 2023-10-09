@@ -12,6 +12,7 @@ body {
   grid-gap: 0.5rem;
   grid-template-areas:
     "header header header header header"
+    ". h1 h1 . ."
     ". sec1 . sec2 ."
     ". sec3 . sec4 ."
     ". sec5 sec5 sec5 ."
@@ -60,6 +61,10 @@ nav{
     color: white;
 }
 
+H1{
+  display: grid;
+  grid-area: h1;
+}
 
 li:hover {
   background: linear-gradient(to right, #a974408a, #4b2b13);
