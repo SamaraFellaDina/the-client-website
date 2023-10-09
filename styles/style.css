@@ -6,8 +6,8 @@
 body {
   background-color: rgba(255, 255, 255, 255);
   display: grid;
-  grid-template-columns: 2fr 3fr 0.5fr 3fr 2fr;
-  grid-template-rows: 0.5fr 0.25fr 0.25fr 0.25fr 1fr 1fr;
+  grid-template-columns: 2fr 3fr 0.5fr 3fr 2fr 1fr;
+  grid-template-rows: 0.5fr 0.25fr 0.25fr 0.25fr 1fr 1fr 1fr;
   grid-gap: 0.5rem;
   grid-template-areas:
     "header header header header header"
@@ -15,7 +15,8 @@ body {
     ". sec1 . sec2 ."
     ". sec3 . sec4 ."
     ". sec5 sec5 sec5 ."
-    ". sec6 sec6 sec6 .";
+    ". sec6 sec6 sec6 ."
+    
   font-family: sans-serif;
   margin: 0;
 }
@@ -116,6 +117,7 @@ div {
 
 .sec5 {
   grid-area: sec5;
+ 
 }
 .blok1 img {
   border-radius: 10px;
