@@ -7,7 +7,7 @@ body {
   background-color: rgba(255, 255, 255, 255);
   display: grid;
   grid-template-columns: 2fr 3fr 0.5fr 3fr 2fr;
-  grid-template-rows: 0.5fr 0.25fr 0.25fr 0.25fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.25fr 0.125fr 0.125fr 0.125fr 0.125fr 1fr 1fr 1fr 1fr;
   grid-gap: 0.5rem;
   grid-template-areas:
     "header header header header header"
