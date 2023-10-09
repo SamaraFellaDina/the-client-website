@@ -11,7 +11,7 @@ body {
   grid-template-rows: 0.5fr 0.25fr 0.25fr 1fr 1fr;
   grid-gap: 0.5rem;
   grid-template-areas:
-    "header header header nav nav"
+    "header header header header header"
     ". sec1 . sec2 ."
     ". sec3 . sec4 ."
     ". sec5 sec5 sec5 ."
@@ -19,52 +19,53 @@ body {
   min-height: 100vh;
   font-family: sans-serif;
 }
-
-
-header {
-  background: rgba(247, 161, 0, 255);
+header{
+  display:flex;
+  width: 100vw;
   grid-area: header;
-  translate: -1em -1em;
-  width: 150%;
-  height: 80%;
+  background:rgba(247, 161, 0, 255);
 }
-
-header img{
-  margin-left: 3em;
-  color: white;
-  width: 7em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+.funda-logo{
+  width: 8rem;
+  margin-left: 2em;
+  
 }
-
+.navlist-left{
+  display:flex;
+  align-items: center;
+  list-style:none;
+  grid-area: nav;
+  
+}
+.navlist-right{
+  display:flex;
+  align-items: center;
+  list-style:none;
+  grid-area: nav;
+  margin-right: 3em;
+}
 nav{
-  grid-area:nav;
-  background: rgba(247, 161, 0, 255);
-  translate: -1em -1em;
-  height: 43%;
-  width: 175%; 
-  margin-left: -30em;
-  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
 }
-.navlist{
-  list-style: none;
-}
-.navlist li{
+
+.navlist-left li, .navlist-right li{
   display: inline-block;
-  padding-inline: 1em;
+  padding: 1em; 
  
 }
-
-.navlist a{
+.navlist-left a, .navlist-right a{
   text-decoration: none;
-  color: white;
+    color: white;
 }
-.nav-right{
-  float: right;
+
+
+li:hover {
+  background: linear-gradient(to right, #a974408a, #4b2b13);
+  border-radius: 2em;
 }
-.nav-left{
-  float: left;
-}
+
 .sec1 {
   background: rgba(162, 137, 137, 0.093);
   grid-area: sec1;
@@ -122,7 +123,7 @@ div{
 }
 
 section:hover { 
-  background: #F7A100;
+   background: #F7A100; 
   font-weight: 600;
   border: 1px solid rgba(0, 0, 0, 0.312);
   color: white;
