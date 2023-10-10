@@ -6,16 +6,18 @@
 body {
   background-color: rgba(255, 255, 255, 255);
   display: grid;
-  grid-template-columns: 2fr 3fr 0.5fr 3fr 2fr;
-  grid-template-rows: 0.5fr 0.25fr 0.125fr 0.125fr 0.125fr 0.125fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 3fr 0.5fr 3fr 1fr;
+  grid-template-rows: 0.5fr 0.25fr 0.125fr 0.125fr 0.125fr 0.125fr 0.125fr 0.125fr 1fr 1fr 1fr 1fr;
   grid-gap: 0.5rem;
   grid-template-areas:
     "header header header header header"
-    ". h1 h1 . ."
+    ". h1 h1 h1 ."
     ". sec1 sec1 sec1 ."
     ". sec2 sec2 sec2 ."
     ". sec3 sec3 sec3 ."
     ". sec4 sec4 sec4 ."
+    ". div div div ."
+    ". h2 h2 h2 ."
     ". sec5 sec5 sec5 ."
     ". sec6 sec6 sec6 ."
     ". sec7 sec7 sec7 ."
@@ -23,6 +25,7 @@ body {
   font-family: sans-serif;
   margin: 0;
 }
+
 header {
   display: flex;
   width: 100vw;
@@ -63,9 +66,10 @@ nav {
   color: white;
 }
 
-H1 {
+h1 {
   display: grid;
   grid-area: h1;
+  font-family: "ProximaNova";
 }
 
 li:hover {
@@ -106,6 +110,7 @@ section p {
   border: 1px solid rgba(0, 0, 0, 0);
   color: white;
 }
+
 #add {
   font-weight: 900;
   position: inherit;
@@ -118,9 +123,34 @@ div {
   border-radius: 0.2em;
 }
 
+hr {
+  grid-area: div;
+  background-color:#f7a100;
+  width: 100%;
+  height: .1em;
+  border-width: inherit;
+}
+
+
+h2{
+  grid-area: h2;
+  font-family: "ProximaNova";
+  font-size: 1.2em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+
+}
+
+
+#aantal-huizen {
+  color: #3333339d;
+  font-size: 0.8em;
+}
+
 .sec5 {
   grid-area: sec5;
 }
+
 .blok1 img {
   border-radius: 10px;
 }
@@ -166,16 +196,20 @@ footer {
     background-color: rgba(255, 255, 255, 255);
     display: grid;
     grid-template-columns: 2fr 3fr 0.5fr 3fr 2fr;
-    grid-template-rows: 0.5fr 0.25fr 0.25fr 0.25fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.25fr 0.25fr 0.25fr 0fr 0.25fr 1fr 1fr;
     grid-gap: 0.5rem;
     grid-template-areas:
       "header header header header header"
       ". h1 h1 . ."
       ". sec1 . sec2 ."
       ". sec3 . sec4 ."
+      ". div div div ."
+      ". h2 h2 h2 ."
       ". sec5 . sec7 ."
       ". sec6 . sec8 .";
     font-family: sans-serif;
     margin: 0;
   }
+
 }
+
