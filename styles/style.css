@@ -184,21 +184,25 @@ section:not(:hover) {
 }
 
 .sec6:hover {
+  color: black;
   background-color: white;
   border: 1px solid black;
 }
 
 .sec7:hover {
+  color: black;
   background-color: white;
   border: 1px solid black;
 }
 
 .sec8:hover {
+  color: black;
   background-color: white;
   border: 1px solid black;
 }
 
 .sec5:hover {
+  color: black;
   background-color: white;
   border: 1px solid black;
 }
