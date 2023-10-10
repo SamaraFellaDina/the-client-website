@@ -166,7 +166,6 @@ h2 {
 
 section:hover {
   background: #f7a100;
-  font-weight: 600;
   border: 1px solid rgba(241, 0, 0, 0);
   color: white;
   box-shadow: 0.1em 0.1em 0.3em rgba(0, 0, 0, 0.199);
@@ -176,6 +175,10 @@ section:hover {
 
 section:not(:hover) {
   transition-duration: 200ms;
+}
+
+section img {
+  margin-left: 1em;
 }
 
 .sec4:hover {
@@ -215,14 +218,14 @@ footer {
 
 .house-text {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   border: 0 solid rgba(255, 255, 255, 0);
   background-color: unset;
   grid-gap: 0rem;
   grid-template-areas:
-    "ht1 "
-    "ht2";
+    "ht1 ht1 like"
+    "ht2 popup popup";
   font-family: sans-serif;
   margin: 0;
 }
@@ -236,6 +239,41 @@ footer {
 .ht1 h4 {
   margin-left: 1rem;
   color: #0071b3;
+}
+
+.like {
+  position: relative;
+  justify-self: right;
+  grid-area: like;
+  background-color: lime;
+  border-radius: 50%;
+  right: 0;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.popup {
+  position: relative;
+  display: none;
+  background-color: greenyellow;
+  z-index: 10;
+  border: rgba(0, 0, 0, 0);
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  grid-area: popup;
+  height: 75%;
+}
+
+.like:hover {
+  position: relative;
+  justify-self: right;
+  border-radius: 50%;
+  right: 0;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: greenyellow;
 }
 
 .ht2 {
