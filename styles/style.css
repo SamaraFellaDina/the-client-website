@@ -159,6 +159,32 @@ section:not(:hover) {
   color: white;
 }
 
+
+
+.image-with-text {
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  text-align:right;
+  padding: 10px;
+}
+
+.image-with-text img {
+  border-radius: 10px;
+}
+
+.image-with-text p {
+  font-family: "ProximaNova";
+  border: none; 
+  margin:0;
+  
+  
+
+}
+
+
+
+
 footer {
   background: rgb(147, 49, 49);
   color: white;
