@@ -26,13 +26,12 @@ header{
   grid-area: header;
   background:rgba(247, 161, 0, 255);
 }
-.navlist-left{
+ .navlist-left{
   list-style: none;
   display:flex;
   align-items: center;
-  margin-left: -15em;
- 
-}
+  margin-left: -20em;
+} 
 .funda-logo{
   width: 8rem;
   margin-left: 4.5em; 
@@ -62,50 +61,59 @@ li{
   text-decoration: none;
   color: white;
 }
+.navlist-left-menu{
+  list-style: none;
+  display:flex;
+  align-items: center;
+  margin-top: 2em;
+  margin-left: 1em;
+  
+}
 li a:hover{
     background: linear-gradient(to right, #a974408a, #4b2b13);
     border-radius: 2em;
 }
 
-/* .navlist-left{
-  display:flex;
-  align-items: center;
-  list-style:none;
-  grid-area: nav;
-  
-}
-.navlist-right{
-  display:flex;
-  align-items: center;
-  list-style:none;
-  grid-area: nav;
-  margin-right: 3em;
-}
-nav{
-  display: flex;
-  justify-content: space-between;
-  width:100%;
+.sidebar{
+  display:none;
+  width: 100vw;
+  background:rgba(247, 161, 0, 255);
+  position: fixed;
+  top: -0.9em;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color:hwb(28 13% 63% / 0.669) ;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start ;
+  box-shadow: 10px 0 10px #0101008a;
+  padding-top: 4em;
+  backdrop-filter: blur(10px);
 }
 
-.navlist-left li, .navlist-right li{
-  display: inline-block;
-  padding: 1em; 
+.sidebar li{
+  list-style: none;
+  margin:1em;
  
 }
-.navlist-left a, .navlist-right a{
+
+.sidebar a{
   text-decoration: none;
-    color: white;
+  color: white;
+
 }
 
-h1{
-  display: grid;
-  grid-area: h1;
-}
-
-li:hover {
+.sidebar a:hover{
   background: linear-gradient(to right, #a974408a, #4b2b13);
-  border-radius: 2em;
-} */
+    border-radius: 2em;
+}
+
+
+
+
+
 
 .sec1 {
   background: rgba(162, 137, 137, 0.093);
@@ -183,10 +191,6 @@ section:not(:hover) {
   color: white;
 }
 
-footer {
-  background: rgb(147, 49, 49);
-  color: white;
-  grid-area: footer;
-}
+
 
 
