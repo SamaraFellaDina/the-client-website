@@ -12,13 +12,13 @@ body {
   grid-gap: 0.5rem;
   grid-template-areas:
     "header header header header header"
-    ". h1 h1 . ."
+    ". h1 h1 h1 ."
     ". sec1 . sec2 ."
     ". sec3 . sec4 ."
     ". sec5 sec5 sec5 ."
     ". sec6 sec6 sec6 .";
-  min-height: 100vh;
   font-family: sans-serif;
+  margin: 0;
 }
 header{
   display:flex;
@@ -26,12 +26,48 @@ header{
   grid-area: header;
   background:rgba(247, 161, 0, 255);
 }
+.navlist-left{
+  list-style: none;
+  display:flex;
+  align-items: center;
+  margin-left: -15em;
+ 
+}
 .funda-logo{
   width: 8rem;
-  margin-left: 2em;
+  margin-left: 4.5em; 
+}
+
+.navlist-right{
+  list-style: none;
+  display: flex;
+  align-items: center;
   
 }
-.navlist-left{
+nav{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+a {
+  display: block;
+  padding: 8px;
+  
+}
+li{
+  padding: 0.5em;
+  
+}
+.navlist-left a, .navlist-right a{
+  text-decoration: none;
+  color: white;
+}
+li a:hover{
+    background: linear-gradient(to right, #a974408a, #4b2b13);
+    border-radius: 2em;
+}
+
+/* .navlist-left{
   display:flex;
   align-items: center;
   list-style:none;
@@ -69,7 +105,7 @@ h1{
 li:hover {
   background: linear-gradient(to right, #a974408a, #4b2b13);
   border-radius: 2em;
-}
+} */
 
 .sec1 {
   background: rgba(162, 137, 137, 0.093);
@@ -80,11 +116,9 @@ li:hover {
 section {
   background: rgba(162, 137, 137, 0.093);
   border: 1px solid black;
-  border-radius: .2em;
+  border-radius: 0.2em;
   align-items: center;
   display: flex;
-
-
 }
 
 section p {
@@ -121,7 +155,6 @@ div{
 
 .sec5 {
   grid-area: sec5;
-  border-radius :10px;
 }
 .blok1 img {
   border-radius: 10px;
