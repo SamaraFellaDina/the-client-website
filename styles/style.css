@@ -8,7 +8,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 3fr 0.5fr 3fr 1fr;
   grid-template-rows: 0.5fr 0.25fr 0.125fr 0.125fr 0.125fr 0.125fr 0.125fr 0.125fr 1fr 1fr 1fr 1fr;
-  grid-gap: 0.5rem;
+  grid-gap: 1rem;
   grid-template-areas:
     "header header header header header"
     ". h1 h1 h1 ."
