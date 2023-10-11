@@ -24,7 +24,7 @@ body {
     ". sec8 sec8 sec8 .";
   font-family: sans-serif;
   margin: 0;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 header {
@@ -260,15 +260,15 @@ footer {
 
 .house-text {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
   border: 0 solid rgba(255, 255, 255, 0);
   background-color: unset;
   grid-gap: 0rem;
   grid-template-areas:
-    "ht1 ht1 ht1"
-    "ht2 ht2 like"
-    "popup popup popup";
+    "ht1 ht1 ht1 like"
+    "ht2 ht2 ht2 ht2"
+    "popup popup popup popup";
   font-family: sans-serif;
   margin: 0;
 }
@@ -347,7 +347,7 @@ footer {
   .house-text {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
     border: 0 solid rgba(255, 255, 255, 0);
     background-color: unset;
     grid-gap: 0rem;
