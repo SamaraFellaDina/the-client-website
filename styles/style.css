@@ -65,6 +65,13 @@ li {
   text-decoration: none;
   color: white;
 }
+
+h1 {
+  display: grid;
+  grid-area: h1;
+  font-family: "ProximaNova";
+}
+
 .navlist-left-menu {
   list-style: none;
   display: flex;
@@ -178,27 +185,6 @@ h2 {
   font-size: 0.8em;
 }
 
-hr {
-  grid-area: div;
-  background-color: #f7a100;
-  width: 100%;
-  height: 0.2em;
-  border-width: inherit;
-}
-
-h2 {
-  grid-area: h2;
-  font-family: "ProximaNova";
-  font-size: 1.2em;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-}
-
-#aantal-huizen {
-  color: #3333339d;
-  font-size: 0.8em;
-}
-
 .sec5 {
   grid-area: sec5;
 }
@@ -269,4 +255,91 @@ footer {
   background: rgb(147, 49, 49);
   color: white;
   grid-area: footer;
+}
+
+.house-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border: 0 solid rgba(255, 255, 255, 0);
+  background-color: unset;
+  grid-gap: 0rem;
+  grid-template-areas:
+    "ht1 ht1 like"
+    "ht2 popup popup";
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.ht1 {
+  grid-area: ht1;
+  border: 0 solid rgba(255, 255, 255, 0);
+  background-color: unset;
+}
+
+.ht1 h4 {
+  margin-left: 1rem;
+  color: #0071b3;
+}
+
+.like {
+  position: relative;
+  justify-self: right;
+  grid-area: like;
+  background-color: lime;
+  border-radius: 50%;
+  right: 0;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.popup {
+  position: relative;
+  display: none;
+  background-color: greenyellow;
+  z-index: 10;
+  border: rgba(0, 0, 0, 0);
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  grid-area: popup;
+  height: 75%;
+}
+
+.like:hover {
+  position: relative;
+  justify-self: right;
+  border-radius: 50%;
+  right: 0;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: greenyellow;
+}
+
+.ht2 {
+  grid-area: ht2;
+  border: 0 solid rgba(255, 255, 255, 0);
+  background-color: unset;
+}
+
+@media (min-width: 1125px) {
+  body {
+    background-color: rgba(255, 255, 255, 255);
+    display: grid;
+    grid-template-columns: 2fr 3fr 0.5fr 3fr 2fr;
+    grid-template-rows: 0.5fr 0.25fr 0.25fr 0.25fr 0fr 0.25fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    grid-template-areas:
+      "header header header header header"
+      ". h1 h1 h1 ."
+      ". sec1 . sec2 ."
+      ". sec3 . sec4 ."
+      ". div div div ."
+      ". h2 h2 h2 ."
+      ". sec5 . sec7 ."
+      ". sec6 . sec8 .";
+    font-family: sans-serif;
+    margin: 0;
+  }
 }
