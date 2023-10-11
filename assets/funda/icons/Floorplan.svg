@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Floorplan</title>
+    <g id="Floorplan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M42,7.5 C42,6.67157288 41.3284271,6 40.5,6 L7.5,6 C6.67157288,6 6,6.67157288 6,7.5 L6,7.5 L6,40.5 C6,41.3284271 6.67157288,42 7.5,42 L18,42 L18,39 L9,39 L9,9 L39,9 L39,39 L31.24,39 L20.8,28.56 L18.68,30.68 L30,42 L40.5,42 C41.3284271,42 42,41.3284271 42,40.5 L42,7.5 L42,7.5 Z" fill="#0071B3"></path>
+    </g>
+</svg>

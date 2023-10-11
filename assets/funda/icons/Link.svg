@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Link</title>
+    <g id="Link" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M34,14 C39.5228475,14 44,18.4771525 44,24 C44,29.5228475 39.5228475,34 34,34 L34,34 L26,34 L26,31 L34,31 C37.8659932,31 41,27.8659932 41,24 C41,20.1340068 37.8659932,17 34,17 L34,17 L26,17 L26,14 Z M22,14 L22,17 L14,17 C10.1340068,17 7,20.1340068 7,24 C7,27.8659932 10.1340068,31 14,31 L14,31 L22,31 L22,34 L14,34 C8.4771525,34 4,29.5228475 4,24 C4,18.4771525 8.4771525,14 14,14 L14,14 L22,14 Z M32,22.5 L32,25.5 L16,25.5 L16,22.5 L32,22.5 Z" id="Color" fill="#0071B3"></path>
+    </g>
+</svg>

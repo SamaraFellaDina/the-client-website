@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Box Stack</title>
+    <g id="Box-Stack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M32,26 L27,26 L27,40 L41,40 L41,26 L36,26 L36,32 L32,32 L32,26 Z M10,23 L10,9 L9,9 L9,6 L31,6 L31,9 L30,9 L30,23 L42.4967494,23 C43.3269718,23 44,23.6654358 44,24.5032506 L44,41.4967494 C44,42.3269718 43.3345642,43 42.4967494,43 L25.5,43 L5.5032506,43 C4.67302822,43 4,42.3345642 4,41.4967494 L4,24.5032506 C4,23.6730282 4.66543579,23 5.5032506,23 L10,23 Z M13,23 L27,23 L27,9 L13,9 L13,23 Z M7,40 L24,40 L24,26 L7,26 L7,40 Z M17,12 L23,12 L23,15 L17,15 L17,12 Z M7,34 L24,34 L24,37 L7,37 L7,34 Z" id="box-stack" fill="#0071B3"></path>
+    </g>
+</svg>
