@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Images</title>
+    <g id="Images" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M41.5,13 L12.5,13 C11.6715729,13 11,13.6715729 11,14.5 L11,14.5 L11,39.5 L11,39.5 C11,40.3284271 11.6715729,41 12.5,41 L41.5,41 C42.3284271,41 43,40.3284271 43,39.5 L43,14.5 C43,13.6715729 42.3284271,13 41.5,13 Z M40,16 L40,38 L14,38 L14,16 L40,16 Z M35.5,7 C36.3284271,7 37,7.67157288 37,8.5 L37,8.5 L37,11 L34,11 L34,10 L8,10 L8,32 L9,32 L9,35 L6.5,35 C5.67157288,35 5,34.3284271 5,33.5 L5,33.5 L5,8.5 C5,7.67157288 5.67157288,7 6.5,7 L6.5,7 Z" id="images" fill="#0071B3"></path>
+    </g>
+</svg>

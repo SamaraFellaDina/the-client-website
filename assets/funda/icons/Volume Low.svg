@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Volume Low</title>
+    <g id="Volume-Low" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M9,26 L12.5,26 C12.945,26 13.367,26.198 13.652,26.54 L21,35.357 L21,12.643 L13.652,21.46 C13.367,21.802 12.945,22 12.5,22 L9,22 L9,26 Z M22.5,41 C22.063,41 21.638,40.809 21.348,40.46 L11.797,29 L7.5,29 C6.671,29 6,28.329 6,27.5 L6,20.5 C6,19.671 6.671,19 7.5,19 L11.797,19 L21.348,7.54 C21.751,7.055 22.415,6.875 23.011,7.089 C23.604,7.305 24,7.869 24,8.5 L24,39.5 C24,40.131 23.604,40.695 23.011,40.911 C22.844,40.971 22.671,41 22.5,41 L22.5,41 Z" id="volume-low" fill="#0071B3"></path>
+    </g>
+</svg>

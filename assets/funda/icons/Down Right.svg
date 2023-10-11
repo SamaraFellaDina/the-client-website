@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Arrow Diagonal / Down Right</title>
+    <g id="Arrow-Diagonal-/-Down-Right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M36.5,20 C35.675,20 35,20.675 35,21.5 L35,32.879 L12.559,10.437 C11.976,9.854 11.021,9.854 10.438,10.437 C9.854,11.021 9.854,11.976 10.438,12.559 L32.879,35 L21.5,35 C20.675,35 20,35.675 20,36.5 C20,37.325 20.675,38 21.5,38 L36.5,38 C37.325,38 38,37.325 38,36.5 L38,21.5 C38,20.675 37.325,20 36.5,20" id="Down-Right" fill="#0071B3"></path>
+    </g>
+</svg>
