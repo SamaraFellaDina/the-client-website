@@ -260,13 +260,14 @@ footer {
 .house-text {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   border: 0 solid rgba(255, 255, 255, 0);
   background-color: unset;
   grid-gap: 0rem;
   grid-template-areas:
-    "ht1 ht1 like"
-    "ht2 popup popup";
+    "ht1 ht1 ht1"
+    "ht2 ht2 like"
+    "popup popup popup";
   font-family: sans-serif;
   margin: 0;
 }
@@ -278,7 +279,6 @@ footer {
 }
 
 .ht1 h4 {
-  margin-left: 1rem;
   color: #0071b3;
 }
 
@@ -341,5 +341,24 @@ footer {
       ". sec6 . sec8 .";
     font-family: sans-serif;
     margin: 0;
+  }
+
+  .house-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 0 solid rgba(255, 255, 255, 0);
+    background-color: unset;
+    grid-gap: 0rem;
+    grid-template-areas:
+      "ht1 ht1 like"
+      "ht2 popup popup";
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+  .ht1 h4 {
+    margin-left: 1rem;
+    color: #0071b3;
   }
 }
