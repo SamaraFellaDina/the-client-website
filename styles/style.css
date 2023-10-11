@@ -70,7 +70,7 @@ li{
   
 }
 li a:hover{
-    background: linear-gradient(to right, #a974408a, #4b2b13);
+    background: linear-gradient(to right, #a974408a, hsl(26, 73%, 26%));
     border-radius: 2em;
 }
 
@@ -84,11 +84,11 @@ li a:hover{
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color:hwb(28 13% 63% / 0.669) ;
+  background-color:rgba(135, 90, 49, 0.669) ;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start ;
-  box-shadow: 10px 0 10px #0101008a;
+  box-shadow: 10px 0 10px hsla(0, 0%, 0%, 0.783);
   padding-top: 4em;
   backdrop-filter: blur(10px);
 }
