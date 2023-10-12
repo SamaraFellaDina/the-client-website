@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Funda</title>
-    <link rel="stylesheet" href="styles/style.css" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href= "styles/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
 
   <body id="basic-layout-1">
     <header>
-      <img
-        src="assets\Logo's\01-funda-Orange.svg"
-        alt="logo funda"
-        class="funda-logo"
-      />
+      <img src="assets\Logo's\01-funda-Orange.svg" alt="logo funda" class="funda-logo">
+      <nav>
+          <ul class="navlist-left">
+              <li class="navlist-left-menu"><a href="#">Menu</a></li>
+              <li class="sidebarmenu"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="27"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+          </ul>
+    
+          <ul class="navlist-right">
+              <li><a href="#">Mijn huis</a></li>
+              <li><a href="#">Profiel</a></li>
+          </ul>
+      </nav>
     </header>
+
+    <ul class="sidebar">
+      <li class="sidebarexit"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      <li><a href="#"><b>Kopen</b></a></li>
+      <li><a href="#"><b>Huren</b></a></li>
+      <li><a href="#"><b>Verkopen</b></a></li>
+    
+    </ul>
+    
 
     <h1>Mijn Lijsten</h1>
 
@@ -38,6 +56,9 @@
       />
       <div class="house-text">
       <div class="ht1"><h4>Laan van Sammy 20</h4></div>
+      <div class="like"></div>
+
+      <div class="popup">Jasper Droppert heeft dit huis ook bewaard</div>
       <div class="ht2"><p>$1.500 /maand <br> 4531 GP Arnhem</p></div>
       </div>
     </section>
@@ -78,5 +99,6 @@
         <div class="ht1"><h4>Nadirakade 20</h4></div>
         <div class="ht2"><p>$2.400 /maand <br> 1011 AA Amsterdam</p></div>
     </section>
+    <script src="scripts/script.js"></script>
   </body>
 </html>

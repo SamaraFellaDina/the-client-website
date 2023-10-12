@@ -8,7 +8,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 3fr 0.5fr 3fr 1fr;
   grid-template-rows: 0.5fr 0.25fr 0.125fr 0.125fr 0.125fr 0.125fr 0.125fr 0.125fr 1fr 1fr 1fr 1fr;
-  grid-gap: 0.5rem;
+  grid-gap: 1rem;
   grid-template-areas:
     "header header header header header"
     ". h1 h1 h1 ."
@@ -32,33 +32,33 @@ header {
   grid-area: header;
   background: rgba(247, 161, 0, 255);
 }
+.navlist-left {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: -20em;
+}
 .funda-logo {
   width: 8rem;
-  margin-left: 2em;
+  margin-left: 4.5em;
 }
-.navlist-left {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  grid-area: nav;
-}
+
 .navlist-right {
+  list-style: none;
   display: flex;
   align-items: center;
-  list-style: none;
-  grid-area: nav;
-  margin-right: 3em;
 }
 nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-
-.navlist-left li,
-.navlist-right li {
-  display: inline-block;
-  padding: 1em;
+a {
+  display: block;
+  padding: 8px;
+}
+li {
+  padding: 0.5em;
 }
 .navlist-left a,
 .navlist-right a {
@@ -72,7 +72,48 @@ h1 {
   font-family: "ProximaNova";
 }
 
-li:hover {
+.navlist-left-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+li a:hover {
+  background: linear-gradient(to right, #a974408a, #4b2b13);
+  border-radius: 2em;
+}
+
+.sidebar {
+  display: none;
+  width: 100vw;
+  background: rgba(247, 161, 0, 255);
+  position: fixed;
+  top: -0.9em;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: hwb(28 13% 63% / 0.669);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-shadow: 10px 0 10px #0101008a;
+  padding-top: 4em;
+  backdrop-filter: blur(10px);
+}
+
+.sidebar li {
+  list-style: none;
+  margin: 1em;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar a:hover {
   background: linear-gradient(to right, #a974408a, #4b2b13);
   border-radius: 2em;
 }
@@ -166,7 +207,6 @@ h2 {
 
 section:hover {
   background: #f7a100;
-  font-weight: 600;
   border: 1px solid rgba(241, 0, 0, 0);
   color: white;
   box-shadow: 0.1em 0.1em 0.3em rgba(0, 0, 0, 0.199);
@@ -176,6 +216,10 @@ section:hover {
 
 section:not(:hover) {
   transition-duration: 200ms;
+}
+
+section img {
+  margin-left: 1em;
 }
 
 .sec4:hover {
@@ -215,14 +259,15 @@ footer {
 
 .house-text {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   border: 0 solid rgba(255, 255, 255, 0);
   background-color: unset;
   grid-gap: 0rem;
   grid-template-areas:
-    "ht1 "
-    "ht2";
+    "ht1 ht1 ht1"
+    "ht2 ht2 like"
+    "popup popup popup";
   font-family: sans-serif;
   margin: 0;
 }
@@ -234,8 +279,42 @@ footer {
 }
 
 .ht1 h4 {
-  margin-left: 1rem;
   color: #0071b3;
+}
+
+.like {
+  position: relative;
+  justify-self: right;
+  grid-area: like;
+  background-color: lime;
+  border-radius: 50%;
+  right: 0;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.popup {
+  position: relative;
+  display: none;
+  background-color: greenyellow;
+  z-index: 10;
+  border: rgba(0, 0, 0, 0);
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  grid-area: popup;
+  height: 75%;
+}
+
+.like:hover {
+  position: relative;
+  justify-self: right;
+  border-radius: 50%;
+  right: 0;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: greenyellow;
 }
 
 .ht2 {
@@ -262,5 +341,24 @@ footer {
       ". sec6 . sec8 .";
     font-family: sans-serif;
     margin: 0;
+  }
+
+  .house-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: 0 solid rgba(255, 255, 255, 0);
+    background-color: unset;
+    grid-gap: 0rem;
+    grid-template-areas:
+      "ht1 ht1 like"
+      "ht2 popup popup";
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+  .ht1 h4 {
+    margin-left: 1rem;
+    color: #0071b3;
   }
 }
