@@ -24,9 +24,7 @@ Bij dit project hebben we een opdracht van Funda gekregen. Zij ons gevraagd om d
 ### Samenwerking
 Wij hebben uiteindelijk samen een presentatie gegeven aan Funda. Daarvoor mochten we ook langskomen op het kantoor. Wij en de andere groepen die aan Funda werken hebben feedback gekregen op het werk, waarna een erg interessante rondleiding volgde door het Funda pand. Ze hebben daar gewoon nemo vis. 
 
-
-  
-<img width="429" alt="Presentatie met Funda" src="image src="https://i.imgur.com/YuOFnQJ.jpg">
+<img width="429" alt="Schermafbeelding 2023-09-29 om 15 09 07" src="https://i.imgur.com/YuOFnQJ.jpg">
 
 
 
