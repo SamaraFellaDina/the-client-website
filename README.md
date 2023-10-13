@@ -2,7 +2,6 @@
 
 # Redesign voor Funda
 _Gemaakt door @Samarafellafina, @Naddybs, @rileyesther, @saschavanvliet & @Treppord_
-## Inhoudsopgave
 
 ## inhoud
   * [Beschrijving](#beschrijving)
@@ -27,7 +26,7 @@ Wij hebben uiteindelijk samen een presentatie gegeven aan Funda. Daarvoor mochte
 
 
   
-<img width="429" alt="Presentatie met Funda" src="image src=https://i.imgur.com/YuOFnQJ.jpg">
+<img width="429" alt="Presentatie met Funda" src="image src="https://i.imgur.com/YuOFnQJ.jpg">
 
 
 
